@@ -1,0 +1,32 @@
+   
+      { 
+        "author": "hinzwifi",
+        "description": "Click to check the price of pvu",
+       
+        "name": "PVU Checker",
+        "permissions": ["notifications", "activeTab"],
+        "version": "1.0",
+        "manifest_version": 2,
+        "background": {
+        "scripts": ["background.js"],
+        
+        "persistent": true
+        },
+        "browser_action": {
+          
+           "default_title": "PVU checker"
+           
+           
+        },
+        "icons": {
+          "48": "clover.png"
+        },
+        "commands": {
+          "_execute_browser_action": {
+                  "suggested_key": "Ctrl+Shift+L",
+                  "description": "Check PVU using keyboard"        
+          }
+        }
+      }
+
+
