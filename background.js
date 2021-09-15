@@ -19,7 +19,7 @@ async function getapi(url) {
 
 var notify = new Notification('Price:', {
     body: "₱ " + data["plant-vs-undead-token"]["php"],
-    icon: 'cloverEye.png',
+    icon: 'images/cloverEye.png',
     
 });
 notify.onclick = function(event) {
