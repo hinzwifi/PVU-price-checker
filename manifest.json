@@ -19,8 +19,9 @@
            
         },
         "icons": {
-          "48": "clover.png"
+          "48": "images/clover.png"
         },
+         
         "commands": {
           "_execute_browser_action": {
                   "suggested_key": "Ctrl+Shift+L",
